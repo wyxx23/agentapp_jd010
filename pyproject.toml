@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wyxx23-agentapp_jd010"
+version = "0.1.0"
+description = "按结构键把条目聚类，标出Agent 应用开发工程师·混合精度的溢出与下溢上的同组项与各组的代表样本"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "wyxx23" }]
+keywords = ["cli", "analysis", "observability", "evaluation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://wyxx23.github.io"
+Repository = "https://github.com/wyxx23/agentapp_jd010"
+Issues = "https://github.com/wyxx23/agentapp_jd010/issues"
+
+[project.scripts]
+agentapp_jd010 = "agentapp_jd010:main"
+
+[tool.setuptools]
+py-modules = ["agentapp_jd010"]
